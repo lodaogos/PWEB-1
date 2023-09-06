@@ -1,0 +1,231 @@
+body {
+    background-color: #151412;
+    /* min-height: 120vh; 
+    margin: 0; 
+    overflow-y: auto;  */
+}
+
+  /* #myHeading{
+    margin-top: 30px;
+  }
+
+  #myLogo{
+    display: inline-block;
+    vertical-align: top; 
+    font-size: 20px;
+    margin-left: 150px;
+    color: #d3fc34;
+  }
+
+ #myAbout{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fdfdfb;
+    margin-right: 150px;
+    float: right;
+    display: inline-block;
+    vertical-align: top; 
+ } */
+
+
+#backgroundBody{
+    text-align: center;
+    /* position: fixed; */
+    background-color: white;
+    width: 400px;
+    height: 650px;
+    margin-left: 150px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    /*z-index: -1; /* Place it behind other content */
+    border-radius: 20px; /
+}
+
+#body1{
+    display: flex;
+    margin-top: 20px;
+}
+
+#body2{
+    vertical-align: top;
+    color: white;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+#pemrograman{
+    font-size: 100px;
+}
+
+#web{
+    color: #454346;
+    font-size: 100px;
+}
+
+#youtube{
+    /* position: fixed; */
+    background-color: #f46d38;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    /*z-index: -1; /* Place it behind other content */
+    border-radius: 20px; 
+}
+
+#website{
+    /* position: fixed; */
+    background-color: #c6ff41;
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    /*z-index: -1; /* Place it behind other content */
+    border-radius: 20px; 
+}
+
+#container{
+    display: flex;
+    margin-top: 20px;
+}
+
+#text1{
+    color: #c6ff41;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+#foto{
+    margin-top: 20px;
+    border-radius: 20px; 
+}
+
+#nama{
+    color: #191c21;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#nohp{
+    color: #655f5f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 2px;
+
+}
+
+#nrp{
+    color: #655f5f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 2px;
+
+}
+
+#alamat{
+    color: #655f5f;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+
+#map{
+    margin-top: 20px;
+}
+
+#logoYoutube{
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#deskripsiYoutube{
+    color: black;
+    margin-left: 45px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#arrowOne{
+    height: 50px;
+    margin-left: 220px;
+    margin-top: 15px;
+}
+
+#logoWebsite{
+    height: 70px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#deskripsiWebsite{
+    color: black;
+    margin-left: 45px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#arrowTwo{
+    height: 50px;
+    margin-left: 320px;
+    margin-top: 15px;
+}
+
+.classHeading{
+    margin-left: 25px;
+ }
+
+
+
+
+
+ /* Youtube Body CSS */
+
+#youtubeBody{
+    background-color: #f46d38;
+    min-height: 120vh; 
+    margin: 0; 
+    overflow-y: auto; 
+    scroll-behavior: auto;
+}
+
+#previousYoutube{
+    height: 60px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+#newContainer{
+    /* border: black;
+    border-style: solid;
+    border-radius: 5px; */
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.embedYoutube{
+    display: flex; /* Use flexbox to arrange children side by side */
+    gap: 20px; /* Add some space between the items */
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+
+
+/* Website Body CSS */
+
+#websiteBody{
+    background-color: #c6ff41;
+    min-height: 120vh; 
+    margin: 0; 
+    overflow-y: auto; 
+    scroll-behavior: auto;
+}
